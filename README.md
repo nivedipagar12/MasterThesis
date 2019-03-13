@@ -5,9 +5,11 @@ This repository contains all the codes and data associated with my Master Thesis
 2) **BIS** : [Bioelectrical Impedance Spectroscopy](https://en.wikipedia.org/wiki/Bioelectrical_impedance_analysis)
 3) **Cole Model** : [Need of cole model and curve fitting for Body Composition Analysis](https://iopscience.iop.org/article/10.1088/0967-3334/34/10/1239)
 
-Folder Name: Curve Fitting
+Here are the details of each folder in this repository:
 
-This folder contains the main curve fitting algorithm. In the above mentioned cole modelling paper, you will find the formulas used to find the initial values of **x0, y0 and r0 (Equation 5)** and the simplified formula used to implement the **BFGS** algorithm to find the result as a function of **f(x0, y0, r0)**. Upon finding the **center** **(x0,y0)** and **radius** **r0** of the imaginary circle, the **R0** and **Rinf** values can be calculated using distance formula as follows :
+- Folder Name: Curve Fitting
+
+This folder contains the main curve fitting algorithm. In the above mentioned cole modelling paper, you will find the formulas used to find the initial values of **x0, y0 and r0 (Equation 5)** and the simplified formula used to implement the **BFGS** algorithm to find the result as a function of **F(x0, y0, r0)** **(Equation)**. Upon finding the **center** **(x0,y0)** and **radius** **r0** of the imaginary circle, the **R0** and **Rinf** values can be calculated using distance formula as follows :
 
 Point 1: x0,y0
 Point 2: R0 or Rinf,0
