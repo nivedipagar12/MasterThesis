@@ -3,7 +3,7 @@ Project Name : Non-linear iteration algorithm for multiple unknown variables usi
 Package requirements : pandas, xlrd, scipy.optimize and numpy
 Author : Nivedita Pagar
 Created on : 03/03/2019
-Please read the readme file associated with this code
+Please read the associated readme file and theory file associated with this code
 '''
 
 import pandas as pd
