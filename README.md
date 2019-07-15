@@ -7,16 +7,16 @@ This repository contains all the codes and data associated with my Master Thesis
 
 Here are the details of each folder in this repository:
 
-1) PCB Design:
+1) **PCB Design:**
 
 For the purpose of my Master Thesis, I made a PCB for a bioimpedance measurement device. For efficient separation of graound planes and due to size constraints, the design was divided into two PCBs. PCB1 consists of the visible and digital circuitry whereas PCB2 consists of the analog and mixed signal circuitry. An overview of the component placement can be found in PCBoverview.png and a block overview of the systems can be found in blockoverview.png
 
-- PCB1 : This sub folder contains all the Eagle (schematic and board) files and image files relevant to PCB1
-- PCB2 : This sub folder contains all the Eagle (schematic and board) files and image files relevant to PCB2
+- **PCB1** : This sub folder contains all the Eagle (schematic and board) files and image files relevant to PCB1
+- **PCB2** : This sub folder contains all the Eagle (schematic and board) files and image files relevant to PCB2
 
-- Design Considerations:
+- **Design Considerations:**
 
-  -- Separation of ground planes (Analog and digital)
+      - Separation of ground planes (Analog and digital)
   -- Place for electrode connectors
   -- Provision for bluetooth communication (Bluetooth module)
   -- Provision for displaying data (LCD display)
@@ -28,7 +28,7 @@ For the purpose of my Master Thesis, I made a PCB for a bioimpedance measurement
 
 PCB1 and PCB2 were stacked and connected using carefully positioned header pins. 
 
-2) Folder Name: Curve Fitting
+2) **Folder Name: Curve Fitting**
 
 This folder contains the main curve fitting algorithm. In the above mentioned cole modelling paper, you will find the formulas used to find the initial values of **x0, y0 and r0 (Equation 5)** and the simplified formula used to implement the **BFGS** algorithm to find the result as a function of **F(x0, y0, r0)** **(Equation 3)**. Upon finding the **center** **(x0,y0)** and **radius** **r0** of the imaginary circle, the **R0** and **Rinf** values can be calculated using distance formula as follows :
 
