@@ -17,14 +17,14 @@ For the purpose of my Master Thesis, I made a PCB for a bioimpedance measurement
 - **Design Considerations:**
 
       - Separation of ground planes (Analog and digital)
-  -- Place for electrode connectors
-  -- Provision for bluetooth communication (Bluetooth module)
-  -- Provision for displaying data (LCD display)
-  -- Push button switches for Reset, Trigger and bluetooth module reset
-  -- LEDs for testing
-  -- Battery powered (four coin cell batteries on board)
-  -- Stand alone system (for wearable applications)
-  -- Provision for SWD as well as JTAG
+      - Place for electrode connectors
+      - Provision for bluetooth communication (Bluetooth module)
+      - Provision for displaying data (LCD display)
+      - Push button switches for Reset, Trigger and bluetooth module reset
+      - LEDs for testing
+      - Battery powered (four coin cell batteries on board)
+      - Stand alone system (for wearable applications)
+      - Provision for SWD as well as JTAG
 
 PCB1 and PCB2 were stacked and connected using carefully positioned header pins. 
 
