@@ -23,4 +23,11 @@ Reverse engineering the distance formula, we can find R0 and Rinf as follows:
 
 For the purpose of my Master Thesis, I made a PCB for a bioimpedance measurement device. For efficient separation of graound planes and due to size constraints, the design was divided into two PCBs. PCB1 consists of the visible and digital circuitry whereas PCB2 consists of the analog and mixed signal circuitry. An overview of the component placement can be found in PCBoverview.png and a block overview of the systems can be found in blockoverview.png
 
+Design Considerations:
+
+- Separation of ground planes
+- Place for electrode connectors
+- Provision for bluetooth communication
+- Provision for diplaying data
+
 .... More updates coming soon 
