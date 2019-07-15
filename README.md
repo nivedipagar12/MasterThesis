@@ -11,20 +11,22 @@ Here are the details of each folder in this repository:
 
 For the purpose of my Master Thesis, I made a PCB for a bioimpedance measurement device. For efficient separation of graound planes and due to size constraints, the design was divided into two PCBs. PCB1 consists of the visible and digital circuitry whereas PCB2 consists of the analog and mixed signal circuitry. An overview of the component placement can be found in PCBoverview.png and a block overview of the systems can be found in blockoverview.png
 
-Design Considerations:
+- PCB1 : This sub folder contains all the Eagle (schematic and board) files and image files relevant to PCB1
+- PCB2 : This sub folder contains all the Eagle (schematic and board) files and image files relevant to PCB2
 
-- Separation of ground planes (Analog and digital)
-- Place for electrode connectors
-- Provision for bluetooth communication (Bluetooth module)
-- Provision for displaying data (LCD display)
-- Push button switches for Reset, Trigger and bluetooth module reset
-- LEDs for testing
-- Battery powered (four coin cell batteries on board)
-- Stand alone system (for wearable applications)
-- Provision for SWD as well as JTAG
+- Design Considerations:
 
+  -- Separation of ground planes (Analog and digital)
+  -- Place for electrode connectors
+  -- Provision for bluetooth communication (Bluetooth module)
+  -- Provision for displaying data (LCD display)
+  -- Push button switches for Reset, Trigger and bluetooth module reset
+  -- LEDs for testing
+  -- Battery powered (four coin cell batteries on board)
+  -- Stand alone system (for wearable applications)
+  -- Provision for SWD as well as JTAG
 
-The PCB1 and PCB2 were stacked and connected using carefully positioned header pins. 
+PCB1 and PCB2 were stacked and connected using carefully positioned header pins. 
 
 2) Folder Name: Curve Fitting
 
